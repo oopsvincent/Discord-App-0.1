@@ -1,2 +1,3 @@
-# Discord-App-0.1
-A Discord App that provides jokes whenever you use /joke command. Written in ruby and node.js
+# discordApp0.1
+ Its a Discord App written in Ruby and Node.js that provides joke whenever a user types the command '/joke'
+ Made By https://discord.gg/OopsVincent

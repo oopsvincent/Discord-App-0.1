@@ -1,0 +1,19 @@
+{
+  "name": "discordapp0.1",
+  "version": "1.0.0",
+  "description": "Just another Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^2.4.0",
+    "axios": "^1.7.7",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "one-liner-joke": "^1.2.2"
+  }
+}
