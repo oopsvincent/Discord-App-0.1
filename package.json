@@ -11,9 +11,11 @@
   "license": "ISC",
   "dependencies": {
     "@discordjs/rest": "^2.4.0",
+    "@supabase/supabase-js": "^2.49.4",
     "axios": "^1.7.7",
     "discord.js": "^14.16.3",
     "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2",
     "one-liner-joke": "^1.2.2"
   }
 }
