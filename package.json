@@ -1,14 +1,25 @@
 {
   "name": "discordapp0.1",
   "version": "1.0.0",
-  "description": "Just another Discord Bot",
+  "description": "A Discord bot powered by Discord.js and Supabase — lightweight, witty, and fast.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "echo \"No build step required\"",
+    "test": "echo \"No tests yet\" && exit 0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "discord",
+    "bot",
+    "supabase",
+    "discord.js",
+    "music",
+    "ai",
+    "automation"
+  ],
+  "author": "Vincent Brown <youremail@example.com>",
+  "license": "MIT",
   "dependencies": {
     "@discordjs/rest": "^2.4.0",
     "@supabase/supabase-js": "^2.49.4",
@@ -17,5 +28,19 @@
     "dotenv": "^16.4.5",
     "node-fetch": "^3.3.2",
     "one-liner-joke": "^1.2.2"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<your-username>/discordapp0.1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/<your-username>/discordapp0.1/issues"
+  },
+  "homepage": "https://github.com/<your-username>/discordapp0.1#readme"
 }
